@@ -57,8 +57,6 @@ namespace CategoryOfObjects
             {
                 Console.WriteLine("account withdraw not possible.... :( :(");
             }
-
-
         }
 
         public void Transfer(double amount, Account receiver)
