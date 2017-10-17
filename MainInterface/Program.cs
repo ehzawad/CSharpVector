@@ -43,7 +43,29 @@ namespace MainInterface
             //hafezul.DetectMobileOperator();
             //hafezul.ShowPersonInfo();
 
+            // ACCOUNT
+            //    Account a = new Account();
+            //    Console.WriteLine("Input Account Info:\n" + "Account Name: ");
+            //    a.AccName = Console.ReadLine();
+            //    Console.WriteLine("AccId:");
+            //    a.Acid = Console.ReadLine();
+            //    Console.WriteLine("Balance:");
+            //    a.Balance = Convert.ToDouble(Console.ReadLine());
 
+            //    //enter deposit amount
+            //    Console.WriteLine("Enter deposit amount: ");
+            //    a.Deposit(Convert.ToDouble(Console.ReadLine()));
+
+            //    Console.WriteLine("Enter Withdraw Amount");
+            //    a.WithDraw(Convert.ToDouble(Console.ReadLine()));
+
+            //    Console.WriteLine("Your Bank Account Info" + "\nName:" + a.AccName + "\nId: " + a.Acid + "\nBalance: " + a.Balance);
+
+            //    Console.WriteLine("Enter amount you want to transfer: ");
+            //    double transferAmount = Convert.ToDouble(Console.ReadLine());
+            //    a.Transfer(transferAmount, new Account("Sohan", "15-30111-2", 0.000));
+            //    Console.WriteLine("Your Bank Account Info" + "\nName:" + a.AccName + "\nId: " + a.Acid + "\nBalance: " + a.Balance);
+            //}
         }
     }
 }
