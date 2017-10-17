@@ -84,7 +84,7 @@ namespace CategoryOfObjects
 
         static Book()
         {
-            Console.WriteLine("Welcome Console Book Application !!! \n");
+            Console.WriteLine("Welcome to Console Book Application !!! \n");
         }
 
         public static void ShowTotalBookInfo() => Console.WriteLine("Total Number of book objects {0} !", bookCounter);

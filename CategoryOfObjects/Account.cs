@@ -7,6 +7,8 @@ using System.Threading.Tasks;
 namespace CategoryOfObjects
 {
     public class Account
-    { }
+    {
+
+    }
 
 }

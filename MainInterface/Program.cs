@@ -11,7 +11,7 @@ namespace MainInterface
     {
         static void Main(string[] args)
         {
-            // Console.WriteLine("Cool");
+            // BOOK
 
             Book csharpBook = new Book("C#", "Microsoft", "101", "Language", 5);
             csharpBook.ShowInfo();
@@ -30,13 +30,19 @@ namespace MainInterface
             };
 
 
-            Book dummy = new Book();
-            dummy.ShowInfo();
+            //Book dummy = new Book();
+            //dummy.ShowInfo();
 
             devOps.AddBookCopy(4);
             devOps.ShowInfo();
 
             Book.ShowTotalBookInfo();
+
+            // CONTACT
+            //Contact hafezul = new Contact("Hafezul Talukder", "42225", 17, "017XXXX", 'M');
+            //hafezul.DetectMobileOperator();
+            //hafezul.ShowPersonInfo();
+
 
         }
     }
